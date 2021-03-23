@@ -28,6 +28,6 @@ for i in s:
     count_l = 0
 print('max=', max)
 print('min=', min)
-for i in s:
+for i in s: #выполнение задания d. Проверить символ на то является ли он * и повторить в таком случае 2 раза
     if i != "*":
         print(i * 2, end = "")
